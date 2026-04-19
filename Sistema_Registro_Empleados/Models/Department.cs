@@ -18,7 +18,7 @@ namespace Sistema_Registro_Empleados.Models
         {
             get { return _departmentName; }
             set
-            {
+                {
                 if (string.IsNullOrWhiteSpace(value))
                 { throw new ArgumentException("El nombre del departamento no puede estar vacio"); }
             }

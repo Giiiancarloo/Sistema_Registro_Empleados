@@ -18,6 +18,7 @@ namespace Sistema_Registro_Empleados.Models
         private int _numberChildren;
         private int _phone;
 
+
         /* Propiedades de la clase sin validación */
         public string Address { get => _address; set => _address = value; }
         public DateOnly BirthDate { get => _birthDate; set => _birthDate = value; }
@@ -29,6 +30,7 @@ namespace Sistema_Registro_Empleados.Models
         public string Statuts { get => _statuts; set => _statuts = value; }
         public int NumberChildren { get => _numberChildren; set => _numberChildren = value; }
         public int Phone { get => _phone; set => _phone = value; }
+
 
         /* Constructor de nuevas instancias */
         public Employee()
@@ -42,17 +44,17 @@ namespace Sistema_Registro_Empleados.Models
             this._surname = string.Empty;
             this._statuts = string.Empty;
             this._numberChildren = 0;
-            this._phone = 0;
+            this.Phone = 0;
         }
 
         /* M+etodo para mostrar información del empleado */
-        public void EmployeeAdd()
+        public int EmployeeAdd()
         {
             //Crear una lista de epleados para almacenar los empleados creados
             var ListEmployees = new List<Employee>();
 
             //Captar la información del empleado
-            var newEmployee = new Employee
+            var newEmployee = new Employee 
             {
                 IdentityCard = this._identityCard,
                 Name = this._name,
@@ -60,7 +62,7 @@ namespace Sistema_Registro_Empleados.Models
                 BirthDate = this._birthDate,
                 MaritalStatus = this._maritalStatus,
                 NumberChildren = this._numberChildren,
-                Phone = this._phone,
+                Phone = this.Phone,
                 Email = this._email,
                 Address = this._address,
                 Statuts = this._statuts
@@ -70,6 +72,7 @@ namespace Sistema_Registro_Empleados.Models
             ListEmployees.Add(newEmployee);
 
             //Devuelve el número total de empleados en la lista
+            
             return ListEmployees.Count;
         }
 

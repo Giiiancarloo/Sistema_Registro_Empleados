@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sistema_Registro_Empleados.Models.Department">
+    <Position X="7.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAEAAAgAgAEAIAgABAAAAAAAAAAARAAIABAAAA=</HashCode>
+      <FileName>Models\Department.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_Registro_Empleados.Models.Employee">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAADDAIAAAgAACgACQgBAAAAEACEAAAIEAEEBE=</HashCode>
+      <FileName>Models\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RRHH_System.ModelsClass.JobTitle">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAABAAAACAAAAAAAAgAAABAACAAgAAgCAA=</HashCode>
+      <FileName>Models\JobTitle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Recruitment">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAEAEAAIAIASAAAAAAiAAABAAAEBAAAREAAQAI=</HashCode>
+      <FileName>Models\Recruitment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
